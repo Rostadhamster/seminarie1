@@ -1,0 +1,136 @@
+h1{
+    text-align: center;
+    font-family: "Times New Roman";
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.body{
+    background-color: rgb(252,251,227);
+    font-size: 87.5%;
+    font-family: "Times New Roman", 'lucida sans Unicode';
+    line-height: 1.5;
+    text-align: left;
+    margin: 0 auto;
+    width: 70%;
+    clear: both;
+}
+
+
+.body .nav {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(100, 47, 4);
+    margin: 20px;
+    top:0;
+}
+
+.body .nav li {
+    float: left;
+    border-right: 1px solid rgb(252,251,227);
+}
+
+
+.body .nav li:last-child {
+    border-right: none;
+}
+
+ .body .nav li a {
+    display: block;
+    color: rgb(252,251,227);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+.body .nav li a:hover {
+    background-color: rgba(252,251,227, 0.2);
+}
+
+.maincontent{
+    line-height: 25px;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 100%;    
+}
+
+.topcontent{
+    background-color: white;
+    border-radius: 5px;
+    padding: 1% 3%;
+    margin-top: 1%;
+    height: 1010px;
+}
+
+#calendar{
+    width: 100%;
+}
+
+#calendar a{
+    color: #666;
+    text-decoration: none;
+}
+
+#calendar ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    clear: both;
+    width: 100%;
+}
+
+#calendar li{
+    display: block;
+    float: left;
+    width: 14.36%;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid #aaa;
+    margin-right: -1px;
+    margin-bottom: -1px;
+    border-bottom: 1px;
+}
+
+#calendar ul.weekdays{
+    height: 40px;
+    background: rgb(100, 47, 4);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#calendar ul.weekdays li{
+    text-align: center;
+    line-height: 20px;
+    border: none !important;
+    padding: 10px 6px;
+    color: #fff;
+    font-size: 13px;
+}
+
+#calendar .days li{
+    height: 180px;
+}
+
+#calendar .days li:hover{
+    background: #eee;
+}
+
+#calendar .date{
+    text-align: center;
+    margin-bottom: 5px;
+    background: #4a4a4a;
+    color: #fff;
+    width: 25px;
+    border-radius: 50%;
+    float: right;
+}
+
+#calendar img{
+    clear: both;
+    display: block;
+    width: 80%;
+    height: auto;
+    margin: auto;
+}

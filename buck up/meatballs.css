@@ -1,0 +1,65 @@
+h1{
+    text-align: center;
+    font-family: "Times New Roman";
+    font-size: 40px;     
+}
+h2,h3,h4{
+    font-family: "Times New Roman";
+    font-size: 20px;     
+}
+
+/* -----------Nav bar-------------- */
+
+.body{
+    background-color: rgb(252,251,227);
+    font-size: 87.5%;
+    font-family: "Times New Roman", 'lucida sans Unicode';
+    line-height: 1.5;
+    text-align: left;
+    margin: 0 auto;
+    width: 70%;
+    clear: both;
+}
+
+
+.body .nav {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(100, 47, 4);
+    top:0;
+    margin: 20px;
+}
+
+.body .nav li {
+    float: left;
+    border-right: 1px solid rgb(252,251,227);
+}
+
+
+.body .nav li:last-child {
+    border-right: none;
+}
+
+ .body .nav li a {
+    display: block;
+    color: rgb(252,251,227);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+.body .nav li a:hover {
+    background-color: rgba(252,251,227, 0.2);
+}
+
+.comments li{
+    font-size: 13px;
+    font-style: italic;
+}
+
+img{
+    max-width:30%;
+	height:auto;
+}
